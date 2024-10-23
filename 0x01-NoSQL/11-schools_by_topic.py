@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""list of collection"""
+"""This will give list of collection"""
 
 
 def schools_by_topic(mongo_collection, topic):
     """
-    returns list of school that having same topic
+    This returns list of school that is having same topic
     """
     return list(mongo_collection.find({"topics": topic}))

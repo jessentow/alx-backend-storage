@@ -8,8 +8,8 @@ from functools import wraps
 
 
 def call_history(method: Callable) -> Callable:
-    """ 
-    This stores the history of inputs and outputs for a 
+    """
+    This stores the history of inputs and outputs for a
     particular function
     """
     key = method.__qualname__

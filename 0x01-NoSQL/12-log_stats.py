@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-Defines a function that  provides some stats
+THis defines a function which provides some stats
 about Nginx logs stored in MongoDB
 '''
 
@@ -9,7 +9,7 @@ from pymongo import MongoClient
 
 
 def nginx_stats_check():
-    """ provides some stats about Nginx logs stored in MongoDB:"""
+    """ This provides some stats about Nginx logs stored in MongoDB:"""
     client = MongoClient()
     collec_nginx = client.logs.nginx
 
